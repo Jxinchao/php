@@ -137,5 +137,49 @@
 
     echo  '我是后续代码';
 
+    echo '<hr>';
+    // switch
+    $test = 4;
+    switch ($test) {
+      case 1:
+        echo 1;
+        break;   // 终止   如果不终止得话。代码会一直往下执行，判断将没有意义
+      case 2:
+        echo 2;
+        break;
+      case 3:
+        echo 3;
+        break;
+      default:
+        echo '备胎';
+        break;
+    }
+
+    // if (){} else if(){}else{}
+
+    $test = 1;
+    if($test == 1){
+      echo 1;
+    }else if($test == 2){
+      echo 2;
+    }else if($test < 1){
+      echo '<1';
+    }else{
+      echo '都不满足';
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   ?>
