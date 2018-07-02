@@ -36,9 +36,19 @@
     echo $i.'<br>';
   };
 
+  // 99 乘法表   两次循环
 
+  echo '<table width="800" height="100" border="1">';
 
-  
+    for($i=0;$i<=9;$i++){
+      echo '<tr>';
+        for($j=1;$j<=$i;$j++){  // j 是后面得值
+          echo '<td>'.$i.'*'.$j.'='.$i*$j.'</td>';
+        }
+      echo '</tr>';
+    };
+
+  echo '</table>';
 
 
 
