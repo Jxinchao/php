@@ -144,4 +144,39 @@
     echo $key .'===='. $value.'<br>';
   }
 
+  foreach($arr8 as $val){
+    echo $val.'<br>';
+  }
+
+  echo '<hr>';
+  // list
+  $arr9 = ['a','b','c','d','e','f','g'];
+  list($a,$b,$c,$d) = $arr9;
+  echo $a,$b,$c,$d;
+
+  echo '<hr>';
+
+  // each
+  $arr10 = ['a','b','c','d','e','f','g'];
+  var_dump(each($arr10));
+  var_dump(each($arr10));
+  var_dump(each($arr10));
+
+  // value
+  $arr11 = ['a','b','c','d','e','f','g'];
+
+  while( list($key, $val) = each($arr11) ){
+    echo $key.'---'.$val.'<br>';
+  };
+
+
+
+
+
+
+
+
+
+
+
 ?>
