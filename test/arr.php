@@ -137,4 +137,11 @@
 
   var_dump($sum);
 
+  // foreach  遍历
+  $arr8 = ['a' => 'aaa','b' => 'bbb','c'=>'ccc'];
+
+  foreach ($arr8 as $key => $value) {
+    echo $key .'===='. $value.'<br>';
+  }
+
 ?>
